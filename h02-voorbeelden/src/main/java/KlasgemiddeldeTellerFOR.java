@@ -2,7 +2,6 @@ void main() {
 
     //declaratie lokale variabelen
     int totaal, punt, klasGemiddelde;
-    Scanner input = new Scanner(System.in);
 
     //initialisatie variabelen
     totaal = 0;

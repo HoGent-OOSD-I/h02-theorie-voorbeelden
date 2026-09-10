@@ -26,5 +26,5 @@ void main() {
         IO.print(String.format("Dit is de %d%s maand van het jaar%n", maandNummer,
                 maandNummer == 1 || maandNummer == 8 ? "-ste" : "-de"));
     else
-        System.out.printf("De naam van de maand werd niet herkend.%n");
+        IO.println("De naam van de maand werd niet herkend.");
 }//einde main
