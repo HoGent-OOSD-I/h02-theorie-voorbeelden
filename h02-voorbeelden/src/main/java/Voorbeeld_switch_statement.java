@@ -17,13 +17,13 @@ void main() {
     if (keuze == 1)
         IO.println("Keuze 1! Je hebt gekozen om op te tellen.");
     else
-    if (keuze == 2)
-        IO.println("Keuze 2! Je hebt gekozen om te delen.");
-    else
-    if (keuze == 3)
-        IO.println("Keuze 3! Je hebt gekozen om af te trekken.");
-    else
-        IO.println("Foutieve keuze!");
+        if (keuze == 2)
+            IO.println("Keuze 2! Je hebt gekozen om te delen.");
+        else
+            if (keuze == 3)
+                IO.println("Keuze 3! Je hebt gekozen om af te trekken.");
+            else
+                IO.println("Foutieve keuze!");
     // end::voorbeeld1_if_else[]
 
     // tag::voorbeeld2[]

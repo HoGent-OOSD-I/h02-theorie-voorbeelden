@@ -29,6 +29,5 @@ void main()
 
 int geefScore() // <7>
 {
-    Scanner input = new Scanner(System.in);
     return Integer.parseInt(IO.readln("Geef score (/20) of -1 om te stoppen: "));
 }//einde geefScore

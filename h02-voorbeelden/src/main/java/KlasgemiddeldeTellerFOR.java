@@ -9,7 +9,8 @@ void main() {
     //blijf herhalen tot...
     for (int puntenTeller = 1; puntenTeller <= 10; puntenTeller++)
     {
-        punt = Integer.parseInt(IO.readln("Geef score " + puntenTeller + " (/20):"));
+        punt = Integer.parseInt(
+                IO.readln(String.format("Geef score %d (/20): ",puntenTeller)));
         totaal += punt;
     }
 
