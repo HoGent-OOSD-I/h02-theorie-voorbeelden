@@ -1,7 +1,6 @@
 void main() {
     Scanner input = new Scanner(System.in);
 
-    // tag::voorbeeld1_switch[]
     int keuze = Integer.parseInt(IO.readln("Geef uw keuze in: "));
 
     switch (keuze)
@@ -11,9 +10,7 @@ void main() {
         case 3 -> IO.println("Keuze 3! Je hebt gekozen om af te trekken.");
         default -> IO.println("Foutieve keuze!");
     }
-    // end::voorbeeld1_switch[]
 
-    // tag::voorbeeld1_if_else[]
     if (keuze == 1)
         IO.println("Keuze 1! Je hebt gekozen om op te tellen.");
     else
@@ -24,9 +21,7 @@ void main() {
                 IO.println("Keuze 3! Je hebt gekozen om af te trekken.");
             else
                 IO.println("Foutieve keuze!");
-    // end::voorbeeld1_if_else[]
 
-    // tag::voorbeeld2[]
     String stad = "Gent";
     switch (stad.charAt(0)) // eerste karakter van de String stad
     {
@@ -34,9 +29,7 @@ void main() {
         case 'G' -> IO.println("Gent");
         case 'B' -> IO.println("Brugge");
     }
-    // end::voorbeeld2[]
 
-    // tag::voorbeeld1_switch_expressie[]
     int bewerking = Integer.parseInt(IO.readln("Geef uw keuze in: "));
     IO.println(
             switch (bewerking)
@@ -47,5 +40,4 @@ void main() {
                 default -> "Foutieve keuze!";
             }
     );
-    // end::voorbeeld1_switch_expressie[]
 }//einde main
