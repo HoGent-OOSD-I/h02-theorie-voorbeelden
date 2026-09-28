@@ -5,6 +5,7 @@ void main() {
 		{ IO.println ("Age greater than or equal to 65" );}
 	      else
 		IO.println ("Age is less than 65 )";
+
 */
         /*
 		int x = 1, total;
