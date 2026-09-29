@@ -5,7 +5,7 @@ void main()
     int studentCounter = 1;
     int result;
 
-    result = askResult(studentCounter);
+    result = askResult(studentCounter); // <1>
 
     while (result != 0)
     {
@@ -16,16 +16,16 @@ void main()
 
         studentCounter++;
         result = askResult(studentCounter);
-    }//einde while
+    } // einde while
 
     IO.println("Passed: " + passes);
     IO.println("Failed: " + failures);
-}//einde main
+} // einde main
 
-int askResult(int studentCounter) {
+int askResult(int studentCounter) { // <2>
     return Integer.parseInt(IO.readln("Enter result " + studentCounter +
                     " (0 = stop, 1 = pass, 2 = fail): "));
-}//einde askResult
+} // einde askResult
 
 
 

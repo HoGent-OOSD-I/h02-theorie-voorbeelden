@@ -1,16 +1,16 @@
 void main() {
 
-    //declaratie lokale variabelen
+    // declaratie lokale variabelen
     int totaal, punt, klasGemiddelde;
 
-    //initialisatie variabelen
+    // initialisatie variabelen
     totaal = 0;
 
-    //blijf herhalen tot...
+    // blijf herhalen tot...
     for (int puntenTeller = 1; puntenTeller <= 10; puntenTeller++)
     {
         punt = Integer.parseInt(
-                IO.readln(String.format("Geef score %d (/20): ",puntenTeller)));
+                IO.readln(String.format("Geef score %d (/20): ", puntenTeller)));
         totaal += punt;
     }
 

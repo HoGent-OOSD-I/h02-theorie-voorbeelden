@@ -25,9 +25,9 @@ void main()
     }
     else
         IO.println("Er werden geen punten ingegeven.");
-}//einde main
+} // einde main
 
 int geefScore() // <7>
 {
     return Integer.parseInt(IO.readln("Geef score (/20) of -1 om te stoppen: "));
-}//einde geefScore
+} // einde geefScore

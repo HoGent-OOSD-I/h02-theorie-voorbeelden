@@ -5,5 +5,5 @@ void main() {
     for (int number = 2; number <= 20; number += 2)
         total += number;
 
-    IO.println("Sum is " + total); // display results
+    IO.println("Sum is " + total); // display result
 }

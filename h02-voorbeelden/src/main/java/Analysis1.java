@@ -15,7 +15,7 @@ void main()
             passes++;
         else
             failures++;
-    }//einde for
+    } // einde for
 
     IO.print(String.format("Passed: %d%nFailed: %d%n", passes, failures));
 
