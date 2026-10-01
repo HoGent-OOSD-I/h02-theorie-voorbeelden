@@ -60,6 +60,16 @@ void main() {
             else // code <> 1 en code <> 2 en code <> 3
                 IO.println("Je kiest om te vermenigvuldigen!");
 
+    int code = 0;
+    if (code == 1)
+        IO.println("Je kiest om op te tellen!");
+    if (code == 2)
+        IO.println("Je kiest om af te trekken!");
+    if (code == 3)
+        IO.println("Je kiest om te delen!");
+    if (code == 4)
+        IO.println("Je kiest om te vermenigvuldigen!");
+
     int grade = 70;
     if (grade >= 60)
         IO.println("Passed");
