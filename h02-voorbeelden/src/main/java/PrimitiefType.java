@@ -16,11 +16,12 @@ void main() {
     letter2 = '*';
 
     byte getal1, getal2, getal3;
+    //getal1 = 128; // <1>
     getal1 = 50;
     getal2 = -128;
     getal3 = 127;
-    IO.print(String.format("%d%n", --getal2)); // <1>
-    IO.print(String.format("%d%n", ++getal3)); // <2>
+    IO.print(String.format("%d%n", --getal2)); // <2>
+    IO.print(String.format("%d%n", ++getal3)); // <3>
 
     short getal4, getal5;
     getal4 = -32768;
